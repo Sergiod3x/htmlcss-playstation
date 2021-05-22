@@ -1,7 +1,20 @@
-*{
+/* *{
      color: crimson;
+} */
+
+.cw {
+    color: white;
 }
 
+.fs-s{
+    font-size: small;
+}
+.fs-xs{
+    font-size: x-small;
+}
+.tj{
+    text-align: justify;
+}
 .tac {
     display:flex;
     align-items: center;
@@ -29,10 +42,41 @@
     flex-wrap: wrap;
     color: blanchedalmond;
 }
+.hfll{
+    height: 100%;
+}
 .wfll{
     width: 100%;
 }
-
+.mrg-s{
+    margin-top: 10px;
+    }
+.mrg{
+    margin-top: 24px;
+    }
+.mrg-l{
+    margin-top: 48px;
+    }  
+.pdg{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.pdg-l{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.pdg-t{
+    padding-top: 24px;
+}
+.pdgl-t{
+    padding-top: 48px;
+}
+.pdg-b{
+    padding-bottom: 24px;
+}
+.pdgl-b{
+    padding-bottom: 48px;
+}
 /* SEZ 1 */
 .main-container{
     overflow-y: scroll;
@@ -78,9 +122,16 @@
     height: calc( 100vh - 100px);
     background-size:cover;
     background-repeat: no-repeat;
-    color: crimson;
-    
+    background-position:center;
 
+}
+.j-logo img{
+    width: 100%;
+    height: auto;
+}
+
+.j-button .btn.btn-danger{
+    border-radius: 50px;
 }
 /* THUMBS */
 .tumb{
