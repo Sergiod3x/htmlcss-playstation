@@ -29,6 +29,9 @@
     flex-wrap: wrap;
     color: blanchedalmond;
 }
+.wfll{
+    width: 100%;
+}
 
 /* SEZ 1 */
 .main-container{
@@ -60,6 +63,7 @@
 
 .sticky-nav{
     top: 0;
+    width: 64px;
     position: sticky;
     z-index: 1001;
 }
@@ -71,14 +75,48 @@
 .jumbo{
     background-image: url(../img/jumbo-bg.png);
     width: 100%;
-    height: 700px;
-    background-size: contain;
+    height: calc( 100vh - 100px);
+    background-size:cover;
     background-repeat: no-repeat;
     color: crimson;
     
 
 }
+/* THUMBS */
+.tumb{
+   
+    border-radius:20px;
+    margin-bottom: 24px;
+}
+.g-thumb-img img{
+    width: 100%; 
+    height: auto;
+    border-radius:20px;
+    /* border: 1px solid blue; */
+    margin: 2px
+}
+/* PSX */
+.psx-core-img img{
+    
+    width: 100%; 
+    height: auto;
+}
 
-.j-core,.row,.container{
-    height: 100%;
+.psx-core-text{
+  
+    background-color: lawngreen;
+}
+/* PSX TUMBS */
+.psx-thumb-img {
+    width: 80%; 
+    height: auto;
+}
+.psx-thumb-img img{
+    
+    width: 80%;
+    height: auto;
+   
+}
+.psx-tumbs-text{
+    text-align: center;
 }
