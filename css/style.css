@@ -66,7 +66,7 @@
 .mrg-l{
     margin-top: 48px;
     }  
-    .mrg-xl{
+.mrg-xl{
     margin-top: 72px;
     }  
 .pdg{
@@ -86,6 +86,9 @@
 }
 .pdgl-t{
     padding-top: 48px;
+}
+.pdgxl-t{
+    padding-top: 72px;
 }
 .pdg-b{
     padding-bottom: 24px;
@@ -179,7 +182,7 @@
     max-width: 870px;
     text-align: center;
 }
-.psx-core-i-text, .ps4-text{
+.psx-core-i-text, .ps4-text, .shop-text{
     opacity: 0.7;
     font-size: calc(1rem*1.25);
 }
@@ -267,7 +270,13 @@
     height: auto;
 }
 .playplus-featured{display:none}
-
+/* SEZ 4  */
+/* SHOP */
+.shop-thumb-img img{
+    
+    width: 100%;
+    height: auto;
+}
 /* PLAYNOW */
 .playnow-cont{
     background-color: rgb(22, 28, 59);
@@ -276,6 +285,7 @@
 .playnow-core{
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
     
     
 }
@@ -294,7 +304,31 @@
     width: 100%;
     height: auto;
 }
+
+.playnow-text{
+    color: white;
+}
 .playnow-featured{display:none}
+
+/* SEZ 5 */
+
+.social.row{
+    max-width: 768px;
+    margin: auto;
+}
+
+.social-thumb-img img{
+    
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* .social.container{
+    padding-right: 300px;
+    padding-left: 300px;
+} */
 
 
 /* NB XL Avrei potuto usare tante righe */
