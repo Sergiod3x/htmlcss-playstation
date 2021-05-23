@@ -66,6 +66,9 @@
 .mrg-l{
     margin-top: 48px;
     }  
+    .mrg-xl{
+    margin-top: 72px;
+    }  
 .pdg{
     padding-top: 24px;
     padding-bottom: 24px;
@@ -169,15 +172,23 @@
     margin: 2px
 }
 /* PSX */
+
+.psx-title.bottom{
+    opacity: 0.7;
+    font-size: calc(1rem*1.25);
+    max-width: 870px;
+    text-align: center;
+}
+.psx-core-i-text, .ps4-text{
+    opacity: 0.7;
+    font-size: calc(1rem*1.25);
+}
 .psx-core-img img{
     
     width: 100%; 
     height: auto;
 }
 
-.psx-core-info{
-  
-}
 
 .psx-core-button .btn.btn-danger{
     border-radius: 50px;
@@ -195,7 +206,8 @@
     height: auto;
    
 }
-.psx-tumbs-text{
+
+.psx-thumb .psx-tumbs-text{
     text-align: center;
 }
 
@@ -206,7 +218,9 @@
 .j-background-b{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
-
+.game-thumbs{
+    background-color:rgb(31, 31, 31);
+}
 .g-thumb-img img{
     width: 100%; 
     height: auto;
@@ -214,10 +228,76 @@
 }
 .g-thumb{
     margin-bottom: 24px;
+   
+}
+/* SEZ 3 */
+/* .ps4-thumb-img {
+    width: 80%; 
+    height: auto;
+} */
+.ps4-thumb-img img{
+    
+    width: 100%;
+    height: auto;
+}
+/* PLAYPLUS */
+.playplus-cont{
+    background-color: rgb(190,188,187);
+    padding-top: 0px;
+}
+.playplus-core{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.playplus-img img{
+    width: 100%;
+    height: auto;
 }
 
+.playplus-button .btn.btn-danger{
+    color:rgb(45, 100, 230); 
+    border-radius: 50px;
+    background-color: rgb(217, 218, 220);
+    border: rgb(217, 218, 220);
+}
+.playplus-logo img{
+    width: 100%;
+    height: auto;
+}
+.playplus-featured{display:none}
 
-/* NB Avrei potuto usare tante righe */
+/* PLAYNOW */
+.playnow-cont{
+    background-color: rgb(22, 28, 59);
+    padding-top: 0px;
+}
+.playnow-core{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.playnow-img img{
+    width: 100%;
+    height: auto;
+}
+
+.playnow-button .btn.btn-danger{
+    color:black; 
+    border-radius: 50px;
+    background-color: rgb(217, 218, 220);
+    border: rgb(217, 218, 220);
+}
+.playnow-logo img{
+    width: 100%;
+    height: auto;
+}
+.playnow-featured{display:none}
+
+
+/* NB XL Avrei potuto usare tante righe */
 @media only screen and (min-width: 1200px) { 
     .right-offset-0  {margin-right: 0;}
     .right-offset-1  {margin-right: calc((100% / 12) *  1);}
@@ -231,5 +311,11 @@
     .right-offset-9  {margin-right: calc((100% / 12) *  9);}
     .right-offset-10 {margin-right: calc((100% / 12) * 10);}
     .right-offset-11 {margin-right: calc((100% / 12) * 11);}
+  
+  }
+
+  @media only screen and (min-width: 768px) { 
+    .playplus-featured{display: inline-block;}
+    .playnow-featured{display:inline-block}
   
   }
