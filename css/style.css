@@ -74,6 +74,10 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+.pdg-xl{
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
 .pdg-t{
     padding-top: 24px;
 }
@@ -89,6 +93,8 @@
 .pdgxl-b{
     padding-bottom: 72px;
 }
+
+
 /* SEZ 1 */
 .main-container{
     overflow-y: scroll;
@@ -126,13 +132,13 @@
 
 /* TO DO NAV END */
 
-/* JUMBO */
+/* JUMBO 1*/
 .j-background-a{
     background-image: url(../img/jumbo-bg.png);
 }
 
 .jumbo{
-    
+    overflow-y: scroll;
     width: 100%;
     height: calc( 100vh - 100px);
     background-size:cover;
@@ -151,21 +157,26 @@
     border: rgb(193,58,15);
 }
 /* THUMBS */
-/* .tumb{
+.g-thumb-rad{
    
     border-radius:20px;
     margin-bottom: 24px;
-} */
-.g-thumb-img img{
+}
+.g-thumb-img-rad img{
     width: 100%; 
     height: auto;
     border-radius:20px;
+    margin: 2px
 }
 /* PSX */
 .psx-core-img img{
     
     width: 100%; 
     height: auto;
+}
+
+.psx-core-info{
+  
 }
 
 .psx-core-button .btn.btn-danger{
@@ -190,6 +201,35 @@
 
 /* SEZ 2 */
 
+/* JUMBO 2 */
+
 .j-background-b{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+.g-thumb-img img{
+    width: 100%; 
+    height: auto;
+    margin: 2px
+}
+.g-thumb{
+    margin-bottom: 24px;
+}
+
+
+/* NB Avrei potuto usare tante righe */
+@media only screen and (min-width: 1200px) { 
+    .right-offset-0  {margin-right: 0;}
+    .right-offset-1  {margin-right: calc((100% / 12) *  1);}
+    .right-offset-2  {margin-right: calc((100% / 12) *  2);}
+    .right-offset-3  {margin-right: calc((100% / 12) *  3);}
+    .right-offset-4  {margin-right: calc((100% / 12) *  4);}
+    .right-offset-5  {margin-right: calc((100% / 12) *  5);}
+    .right-offset-6  {margin-right: calc((100% / 12) *  6);}
+    .right-offset-7  {margin-right: calc((100% / 12) *  7);}
+    .right-offset-8  {margin-right: calc((100% / 12) *  8);}
+    .right-offset-9  {margin-right: calc((100% / 12) *  9);}
+    .right-offset-10 {margin-right: calc((100% / 12) * 10);}
+    .right-offset-11 {margin-right: calc((100% / 12) * 11);}
+  
+  }
