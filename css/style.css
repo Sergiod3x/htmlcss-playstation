@@ -5,6 +5,12 @@
 .cw {
     color: white;
 }
+.cb{
+    color:rgb(107,173,227);
+}
+.ts{
+    letter-spacing:3px
+}
 
 .fs-s{
     font-size: small;
@@ -38,9 +44,12 @@
 .tae {
     display:flex;
     align-items: flex-end;
-    /* justify-content: center; */
     flex-wrap: wrap;
-    color: blanchedalmond;
+}
+
+.tacl{
+    display:flex;
+    align-items: center;
 }
 .hfll{
     height: 100%;
@@ -76,6 +85,9 @@
 }
 .pdgl-b{
     padding-bottom: 48px;
+}
+.pdgxl-b{
+    padding-bottom: 72px;
 }
 /* SEZ 1 */
 .main-container{
@@ -115,9 +127,12 @@
 /* TO DO NAV END */
 
 /* JUMBO */
+.j-background-a{
+    background-image: url(../img/jumbo-bg.png);
+}
 
 .jumbo{
-    background-image: url(../img/jumbo-bg.png);
+    
     width: 100%;
     height: calc( 100vh - 100px);
     background-size:cover;
@@ -132,19 +147,19 @@
 
 .j-button .btn.btn-danger{
     border-radius: 50px;
+    background-color: rgb(193,58,15);
+    border: rgb(193,58,15);
 }
 /* THUMBS */
-.tumb{
+/* .tumb{
    
     border-radius:20px;
     margin-bottom: 24px;
-}
+} */
 .g-thumb-img img{
     width: 100%; 
     height: auto;
     border-radius:20px;
-    /* border: 1px solid blue; */
-    margin: 2px
 }
 /* PSX */
 .psx-core-img img{
@@ -153,9 +168,10 @@
     height: auto;
 }
 
-.psx-core-text{
-  
-    background-color: lawngreen;
+.psx-core-button .btn.btn-danger{
+    border-radius: 50px;
+    background-color: royalblue;
+    border: royalblue;
 }
 /* PSX TUMBS */
 .psx-thumb-img {
@@ -170,4 +186,10 @@
 }
 .psx-tumbs-text{
     text-align: center;
+}
+
+/* SEZ 2 */
+
+.j-background-b{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
