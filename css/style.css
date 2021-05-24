@@ -1,7 +1,6 @@
-/* *{
-     color: crimson;
-} */
+/* CLASSI UTILITY */
 
+/* TESTO */
 .cw {
     color: white;
 }
@@ -11,30 +10,29 @@
 .ts{
     letter-spacing:3px
 }
-
+.tj{
+    text-align: justify;
+}
 .fs-s{
     font-size: small;
 }
 .fs-xs{
     font-size: x-small;
 }
-.tj{
-    text-align: justify;
-}
+
+/* ALLINEAMENTO */
 .tac {
     display:flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
-
 .tacnw {
     display:flex;
     align-items: center;
     justify-content: center;
     flex-wrap:nowrap;
 }
-
 .tar {
     display:flex;
     justify-content: flex-end;
@@ -46,17 +44,20 @@
     align-items: flex-end;
     flex-wrap: wrap;
 }
-
 .tacl{
     display:flex;
     align-items: center;
 }
+
+/* HEIGHT/WIDTH FULL */
 .hfll{
     height: 100%;
 }
 .wfll{
     width: 100%;
 }
+
+/* MARGINI/PADDING */
 .mrg-s{
     margin-top: 10px;
     }
@@ -100,8 +101,10 @@
     padding-bottom: 72px;
 }
 
+/* START */
 
 /* SEZ 1 */
+
 .main-container{
     overflow-y: scroll;
 }
@@ -117,10 +120,6 @@
     height: 40%;    
 }
 
-.bg-white{
-   
-    color: black;
-}
 .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link.active{
     color: black;
 }
@@ -135,14 +134,12 @@
     position: sticky;
     z-index: 1001;
 }
-
 /* TO DO NAV END */
 
 /* JUMBO 1*/
 .j-background-a{
     background-image: url(../img/jumbo-bg.png);
 }
-
 .jumbo{
     overflow-y: scroll;
     width: 100%;
@@ -150,32 +147,26 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
-
 }
 .j-logo img{
     width: 100%;
     height: auto;
 }
-
 .j-button .btn.btn-danger{
     border-radius: 50px;
     background-color: rgb(193,58,15);
     border: rgb(193,58,15);
 }
-/* THUMBS */
-.g-thumb-rad{
-   
-    border-radius:20px;
-    margin-bottom: 24px;
-}
+
+/*JUMBO THUMBS */
 .g-thumb-img-rad img{
     width: 100%; 
     height: auto;
     border-radius:20px;
     margin: 2px
 }
-/* PSX */
 
+/* PSX */
 .psx-title.bottom{
     opacity: 0.7;
     font-size: calc(1rem*1.25);
@@ -187,29 +178,25 @@
     font-size: calc(1rem*1.25);
 }
 .psx-core-img img{
-    
     width: 100%; 
     height: auto;
 }
-
-
 .psx-core-button .btn.btn-danger{
     border-radius: 50px;
     background-color: royalblue;
     border: royalblue;
 }
+
 /* PSX TUMBS */
 .psx-thumb-img {
-    width: 80%; 
+    width: 100%; 
     height: auto;
 }
 .psx-thumb-img img{
     
     width: 80%;
     height: auto;
-   
 }
-
 .psx-thumb .psx-tumbs-text{
     text-align: center;
 }
@@ -217,11 +204,10 @@
 /* SEZ 2 */
 
 /* JUMBO 2 */
-
 .j-background-b{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
-.game-thumbs{
+.game-thumbs-second{
     background-color:rgb(31, 31, 31);
 }
 .g-thumb-img img{
@@ -230,19 +216,13 @@
     margin: 2px
 }
 .g-thumb{
-    margin-bottom: 24px;
-   
+    margin-bottom: 24px;  
 }
-/* SEZ 3 */
-/* .ps4-thumb-img {
-    width: 80%; 
-    height: auto;
-} */
 .ps4-thumb-img img{
-    
     width: 100%;
     height: auto;
 }
+
 /* PLAYPLUS */
 .playplus-cont{
     background-color: rgb(190,188,187);
@@ -251,14 +231,11 @@
 .playplus-core{
     display: flex;
     flex-wrap: wrap;
-    
-    
 }
 .playplus-img img{
     width: 100%;
     height: auto;
 }
-
 .playplus-button .btn.btn-danger{
     color:rgb(45, 100, 230); 
     border-radius: 50px;
@@ -270,13 +247,16 @@
     height: auto;
 }
 .playplus-featured{display:none}
-/* SEZ 4  */
+
+/* SEZ 4 */
+
 /* SHOP */
 .shop-thumb-img img{
     
     width: 100%;
     height: auto;
 }
+
 /* PLAYNOW */
 .playnow-cont{
     background-color: rgb(22, 28, 59);
@@ -286,14 +266,11 @@
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    
-    
 }
 .playnow-img img{
     width: 100%;
     height: auto;
 }
-
 .playnow-button .btn.btn-danger{
     color:black; 
     border-radius: 50px;
@@ -304,7 +281,6 @@
     width: 100%;
     height: auto;
 }
-
 .playnow-text{
     color: white;
 }
@@ -316,22 +292,36 @@
     max-width: 768px;
     margin: auto;
 }
-
 .social-thumb-img img{
     
     width: 100%;
     height: auto;
 }
 
-
-
-/* .social.container{
-    padding-right: 300px;
-    padding-left: 300px;
-} */
-
-
-/* NB XL Avrei potuto usare tante righe */
+/* FOOTER */
+.footer-cont{
+    background-color: rgb(0, 67, 156);
+    padding-top: 64px;
+    padding-bottom: 64px;
+    color: white;
+} 
+.footer-img img{
+    width: 100%;
+    max-width: 96px;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+}
+.foo-link ul{
+    margin-bottom: 0;
+}
+.copyright-text{
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+}
+/* NB XL Avrei potuto usare tante row */
 @media only screen and (min-width: 1200px) { 
     .right-offset-0  {margin-right: 0;}
     .right-offset-1  {margin-right: calc((100% / 12) *  1);}
@@ -345,7 +335,6 @@
     .right-offset-9  {margin-right: calc((100% / 12) *  9);}
     .right-offset-10 {margin-right: calc((100% / 12) * 10);}
     .right-offset-11 {margin-right: calc((100% / 12) * 11);}
-  
   }
 
   @media only screen and (min-width: 768px) { 
