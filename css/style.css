@@ -108,17 +108,16 @@
 .main-container{
     overflow-y: scroll;
 }
-
-/* TO DO NAV START */
+/* SMALL TOP BAR */
 .small-top-bar{ 
     height: 36px;
     background-color: black;
     padding-right: 10px;
-   
 }
 .small-top-bar img{
     height: 40%;    
 }
+/* TO DO NAV START */
 
 .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link.active{
     color: black;
@@ -165,6 +164,9 @@
     border-radius:20px;
     margin: 2px
 }
+.g-thumb{
+    margin-bottom: 24px;  
+}
 
 /* PSX */
 .psx-title.bottom{
@@ -207,6 +209,8 @@
 .j-background-b{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+
+/* JUMBO THUMBS 2 */
 .game-thumbs-second{
     background-color:rgb(31, 31, 31);
 }
@@ -215,9 +219,10 @@
     height: auto;
     margin: 2px
 }
-.g-thumb{
-    margin-bottom: 24px;  
-}
+
+/* SEZ 3 */
+
+/* PS4 */
 .ps4-thumb-img img{
     width: 100%;
     height: auto;
@@ -250,7 +255,7 @@
 
 /* SEZ 4 */
 
-/* SHOP */
+/* SHOP TUMBS */
 .shop-thumb-img img{
     
     width: 100%;
@@ -288,12 +293,12 @@
 
 /* SEZ 5 */
 
+/* SOCIAL */
 .social.row{
     max-width: 768px;
     margin: auto;
 }
 .social-thumb-img img{
-    
     width: 100%;
     height: auto;
 }
