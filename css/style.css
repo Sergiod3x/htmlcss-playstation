@@ -37,7 +37,7 @@
         align-items: center;
     }
 
-    /* HEIGHT FULL */
+    /* WIDTH FULL */
     .wfll{
         width: 100%;
     }
@@ -165,8 +165,7 @@
     .g-thumb{
         margin-bottom: 24px;  
     }
-
-    /* PSX */
+     /* PS5 */
     .psx-title.bottom{
         opacity: 0.7;
         font-size: calc(1rem*1.25);
@@ -181,11 +180,13 @@
         width: 100%; 
         height: auto;
     }
+
     .psx-core-button .btn.btn-danger{
         border-radius: 50px;
         background-color: royalblue;
         border: royalblue;
     }
+    /* HOVER */
 
     /* PSX TUMBS */
     .psx-thumb-img {
@@ -340,4 +341,12 @@
         .playplus-featured{display: inline-block;}
         .playnow-featured{display:inline-block}
     
+    }
+
+
+    /* EXTRA */
+
+    /* ZOOM HOVER THUMBS */
+    .g-thumb-img-rad:hover{
+        margin: 0px -4px -8px -4px;
     }
