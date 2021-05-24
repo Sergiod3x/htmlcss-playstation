@@ -119,8 +119,8 @@
         height: auto;
         
     }
-    /* TO DO NAV START */
 
+    /* NAV */
     .navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav .nav-link.active{
         color: black;
     }
@@ -131,8 +131,7 @@
         z-index: 1001;
         position:-webkit-sticky; 
     }
-    /* TO DO NAV END */
-
+  
     /* JUMBO 1*/
     .j-background-a{
         background-image: url(../img/jumbo-bg.png);
@@ -180,17 +179,17 @@
         width: 100%; 
         height: auto;
     }
-
     .psx-core-button .btn.btn-danger{
         border-radius: 50px;
         background-color: royalblue;
         border: royalblue;
     }
+
     /* HOVER */
 
-    /* PSX TUMBS */
+    /* PS5 TUMBS */
     .psx-thumb-img {
-        width: 100%; 
+        width: 80%; 
         height: auto;
     }
     .psx-thumb-img img{
@@ -200,6 +199,10 @@
     }
     .psx-thumb .psx-tumbs-text{
         text-align: center;
+    }
+    .psx-tumbs-text{
+        height: 70px;
+        overflow:scroll;
     }
 
 /* SEZ 2 */
@@ -344,9 +347,19 @@
     }
 
 
-    /* EXTRA */
+/* EXTRA */
 
     /* ZOOM HOVER THUMBS */
     .g-thumb-img-rad:hover{
         margin: 0px -4px -8px -4px;
     }
+    .psx-thumb-img img:hover{
+        width: 100%;
+        margin-bottom: 21px;
+    }
+    .psx-thumb-img:hover .psx-tumbs-text{
+        display: none;
+    }
+
+    
+    
