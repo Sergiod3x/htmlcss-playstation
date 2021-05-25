@@ -43,6 +43,9 @@
     }
 
     /* MARGINI/PADDING */
+    .mrg-xxs{
+        margin-top: 5px;
+    }
     .mrg-s{
         margin-top: 10px;
         }
@@ -185,8 +188,6 @@
         border: royalblue;
     }
 
-    /* HOVER */
-
     /* PS5 TUMBS */
     .psx-thumb-img {
         width: 80%; 
@@ -254,12 +255,10 @@
 /* SEZ 4 */
 
     /* SHOP TUMBS */
-    .shop-thumb-img img{
-        
+    .shop-thumb-img img{   
         width: 100%;
         height: auto;
     }
-
     /* PLAYNOW */
     .playnow-cont{
         background-color: rgb(22, 28, 59);
