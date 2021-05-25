@@ -42,7 +42,7 @@
         width: 100%;
     }
 
-    /* MARGINI/PADDING */
+    /* MARGIN/PADDING */
     .mrg-xxs{
         margin-top: 5px;
     }
@@ -203,7 +203,6 @@
     }
     .psx-tumbs-text{
         height: 70px;
-        overflow:scroll;
     }
 
 /* SEZ 2 */
